@@ -6,11 +6,11 @@ body{
     background-color: #1a1a1a;
     
 }   
-    @media screen and (max-width : 412px) {
+    @media screen and (max-width : 414px) {
       video{
           position: fixed;
-          width: 150px;
-          margin-top: 400px;
+          width: 400px;
+          margin-top: 
           
       }
 
