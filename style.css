@@ -8,9 +8,9 @@ body{
 }   
     @media screen and (max-width : 414px) {
       video{
-          position: fixed;
-          width: 400px;
-          margin-top: px;          
+          position: absolute;
+          width: 300px;
+          margin-top: 200px;          
       }
 
 
