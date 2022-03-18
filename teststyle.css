@@ -1,14 +1,19 @@
 
-body{
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&family=Source+Code+Pro:wght@500&display=swap');
+  body{
     font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-family: 'Sansita Swashed', cursive;
-    margin: 0;
-    
-}   
+    font-family: 'Source Code Pro', monospace;
+      margin: 0;
+      margin-right: 75px;
+      justify-content: center;
+      
+  }   
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: large;
+    font-size: 23px;
     margin-top: 10px;
     margin-left: 30px;   
     padding: 5px;
@@ -17,7 +22,7 @@ a:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(22, 22, 22);
     border-radius: 5px;
-    height: 20px;
+    height: 30px;
 }
 .topnav{
     background-color: rgb(141, 141, 141) ;
@@ -25,15 +30,22 @@ a:hover{
     display: flex;
     padding: 5px;  
     overflow: hidden;
-
-
+    margin-left: 70px;
+    font-family: cursive;
+    
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: 20px;
+  }
 {box-sizing:border-box}
-}
 /* slideshow container */
 .slideshow-container{
     max-width: 1920px;
     position: relative;
-    margin-left: px;
+    margin-left: 70px;
 
 }
 /* hide the image */
@@ -90,6 +102,69 @@ a:hover{
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
+  .services{
+    display: flex;
+    margin-left: 70px;
+  }
+  .services img{
+    
+    height: 150px;
+    width: 150px;
+    padding: 80px;
+    margin-top: 10px;
+    transition: 1s;
+  }
+  .box1{
+       
+       border-radius: 5px;
+
+  }
+  .box1 :hover{
+    transform: scale(1.1);
+    z-index:2 ;
+}
+  .box2{
+       margin-left: 50px;
+       border-radius: 5px;
+
+  }
+  .box2 :hover{
+    transform: scale(1.1);
+    z-index:2 ;
+}
+  .box3{
+       margin-left: 50px;
+       border-radius: 5px;
+
+  }
+  .box3 :hover{
+    transform: scale(1.1);
+    z-index:2 ;
+}
+  .box4{
+       margin-left: 50px;
+       border-radius: 5px;
+
+  }
+  .box4 :hover{
+    transform: scale(1.1);
+    z-index:2 ;
+}
+  .box5{
+       margin-left: 50px;
+       border-radius: 5px;
+
+  }
+  .box5 :hover{
+    transform: scale(1.1);
+    z-index:2 ;
+}
+p {
+    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+}
   
   @-webkit-keyframes fade {
     from {opacity: .4}
