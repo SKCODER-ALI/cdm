@@ -6,12 +6,50 @@ body{
     background-color: #1a1a1a;
     
 }   
-    @media screen and (max-width : 414px) {
-      video{
+.space{
+    display: flex;
+    height: 15px;
+}
+    @media screen and (max-width : 904px) {
+        body{
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Sansita Swashed', cursive;
+            margin: 0;
+            background-color: #1a1a1a;
+        }  
+        .space{
+            display: flex;
+            height: 500px;
+        }
+        .vd{
+          display: flex;
           position: absolute;
           width: 300px;
-          margin-top: 200px;          
+          margin-left: -150px;          
       }
 
 
     }
+
+}   
+@media screen and (max-width : 500px) {
+    body{
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Sansita Swashed', cursive;
+        margin: 0;
+        background-color: #1a1a1a;
+    }
+    .space{
+        display: flex;
+        height: 600px;
+    }
+  
+   .vd{
+      display: flex;
+      position: absolute;
+      width: 300px;
+       
+  }
+
+
+}
