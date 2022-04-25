@@ -1,0 +1,144 @@
+@media only screen and (min-width: 350px) {
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .navbar{
+        height: 100px;
+        background-color: rgb(255, 86, 86);
+    }
+    .main{
+        background-color: rgb(219, 212, 212);
+        height: 280px;
+    }
+    .navbar li{
+        
+        display: flex;
+        column-gap: 30px;
+        margin-right: 20px;
+        margin-left: 10px;
+        font-size: x-small;
+        justify-content: center;
+        background-color: rgb(255, 86, 86);
+        text-decoration:none;
+        transition: 300ms;
+        
+    }
+    .navbar li a{
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+        height: 25px;
+        width:fit-content;
+        border-radius: 5px;
+        padding: 0.25%;
+    }
+    .navbar img{
+        height: 50px;
+        width: 80px;
+        border-radius:10%;
+        margin-top: -5px;
+        margin-left: 0;
+    }
+    .navbar li :hover{
+        color: black;
+        opacity: 500%;
+        scale: 120%;
+    }
+    #logonname{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        color: white;
+    }
+    .logoname a{
+        text-decoration: none;
+        color: white;
+    }
+    .mainfirstimg img{
+        height: 250px;
+        float: right;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        background-color: rgb(255, 86, 86);
+        padding: 5px;
+        border-radius: 5px;
+        border: 0;
+        
+    }
+    .btn{
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .btndiv{
+        display: flex;
+    }
+    button:hover{
+        background-color: rgb(8, 1, 1);
+        border: rgb(255, 255, 255);
+        color: white;
+        transform:scale(1.1);
+    }
+    .center{
+        text-align: center;
+        font-size: 10px;
+        margin-top: 10px;
+        transition: width 2s, height 4s;
+        
+        
+    }
+.firstservice{
+    display: flex;
+}
+.firstservice img{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-top:30px;
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(124, 123, 123, 0.719);
+}
+.firstservice img:hover{
+        transform: scale(110%);
+        transition-duration: 300ms;
+}
+.fs1 span{
+    margin-left: 40px;
+    
+}
+.fs2 span{
+    margin-left: 29px;
+}
+.secondservice{
+    display: flex;
+}
+.secondservice img{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top:30px ;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(212, 212, 212);
+}
+.secondservice img:hover{
+    transform: scale(110%);
+    transition-duration: 300ms;
+}
+.fs3 span{
+    margin-left: 40px;
+    
+}
+.fs4 span{
+    margin-left: 29px;
+}
+
+}/* 350display end */

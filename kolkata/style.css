@@ -1,0 +1,48 @@
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Sansita Swashed', cursive;
+    margin: 0;
+    background-color: #1a1a1a;
+    
+}   
+.space{
+    display: flex;
+    height: 15px;
+}
+@media screen and (max-width : 800px) {
+    .space{
+        height: 500px;
+    }
+}
+@media screen and (max-width : 462px) {
+    .space{
+        height: 800px;
+    }
+}
+@media screen and (max-width : 452px) {
+    .space{
+        height: 200px;
+    }
+    video{
+        width: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,48 +1,51 @@
 
-body{
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Sansita Swashed', cursive;
-    margin: 0;
-    background-color: #1a1a1a;
+@media only screen and (min-width: 350px) {
+.navbar{
+    height: 100px;
+    background-color: rgb(255, 86, 86);
+}
+.navbar li{
     
-}   
-.space{
     display: flex;
-    height: 15px;
+    column-gap: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: x-small;
+    justify-content: center;
+    background-color: rgb(255, 86, 86);
+    text-decoration:none;
+    transition: 300ms;
+    
 }
-@media screen and (max-width : 800px) {
-    .space{
-        height: 500px;
-    }
+.navbar li a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    width:fit-content;
+    border-radius: 5px;
+    padding: 0.25%;
 }
-@media screen and (max-width : 462px) {
-    .space{
-        height: 800px;
-    }
+.navbar img{
+    height: 50px;
+    width: 50px;
+    border-radius:10%;
+    margin-top: -5px;
+    margin-left: 0;
 }
-@media screen and (max-width : 452px) {
-    .space{
-        height: 200px;
-    }
-    video{
-        width: 500px;
-    }
+.navbar li :hover{
+    color: black;
+    opacity: 500%;
+    scale: 120%;
+}
+#logonname{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
 }
 
 
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+  
