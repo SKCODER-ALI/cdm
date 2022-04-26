@@ -1,15 +1,17 @@
 @media only screen and (min-width: 350px) {
-    body{
-        justify-content: center;
-        align-items: center;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
    
     .navbar{
         height: 100px;
         background-color: rgb(255, 86, 86);
     }
     .main{
-        background-color: rgb(219, 212, 212);
+        background-color: rgba(255, 148, 60, 0.322);
         height: 280px;
     }
     .navbar li{
@@ -103,7 +105,7 @@
     margin-left: 20px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgba(124, 123, 123, 0.719);
+    border-color: rgba(255, 138, 5, 0.719);
 }
 .firstservice img:hover{
         transform: scale(110%);
@@ -140,5 +142,24 @@
 .fs4 span{
     margin-left: 29px;
 }
+form{
+    background-color: rgba(0, 0, 0, 0.39);
+    display: flex;
+    flex-direction: column;
+    padding: 8vw 8vw;
+    width: 95%;
+    max-width: 600px;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+};
+
 
 }/* 350display end */

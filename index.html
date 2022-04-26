@@ -47,24 +47,25 @@
 
     <!-- form part start -->
     
-    <div>
-        <div>
-            <!-- <h1 class="ml-72 text-6xl">"Problem" in your computer!......</h1> -->
+    <div class="formDiv">
+        <div >
+            <h1>Computer <a style="color: red;">Crashed!!</a> Raise a <a style="color:green;">Query</a></h1>
         </div>
         <!-- type your queries heading -->
-        <div>
-            having problem in your computer or laptop!!!raise a query immediately!! 
-                <form>
-                <p>Your name</p>
-                <input type="text" placeholder="Type Your Name">
-                <p>Email Id</p>
-                <input type="text" placeholder="Enter your email address">
-                <p>Your Query</p>
-                            <textarea type="text" placeholder="Tell us about your problem"></textarea>
-                            <button >Attach Screenshot</button>
+        <div class="container">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" id="name" placeholder="Type Your Name">
+
+                        <input type="text" id="email" placeholder="Enter your email address">
+
+                        <input type="text" id="mobile" placeholder="Enter your Whatsapp Number">
+
+
+                        <textarea type="text" id="query" rows="8" placeholder="Write us"></textarea>
+                            <!-- <button >Attach Screenshot</button> -->
                             <button>Submit</button>
                         </form>
-    </div>
+        </div>
 </div>
 </div>
 <!-- form part end -->
@@ -106,6 +107,10 @@
 
 
 
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script src="form.js">
 
+</script>
 </body>
 </html>
