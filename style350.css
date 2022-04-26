@@ -159,7 +159,18 @@ form input, form textarea{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
 
-};
+}
+.formDiv{
+    background-color: rgba(182, 12, 12, 0.137);
+    height: 550px;
+}
+.formDiv h1{
+    width: 400px;
+    margin-left: 5px;
+    font-size: 25px;
+    justify-self: center;
+    padding: 15px;
+}
 
 
 }/* 350display end */
