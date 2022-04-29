@@ -20,7 +20,7 @@
         column-gap: 30px;
         margin-right: 20px;
         margin-left: 10px;
-        font-size: x-small;
+        font-size: 11px;
         justify-content: center;
         background-color: rgb(103, 8, 255);
         text-decoration:none;
@@ -67,7 +67,8 @@
         justify-content: center;
     }
     button{
-        background-color: rgb(255, 86, 86);
+        background-color: rgb(103, 8, 255);
+        color: white;
         padding: 5px;
         border-radius: 5px;
         border: 0;
@@ -81,9 +82,10 @@
         display: flex;
     }
     button:hover{
-        background-color: rgb(8, 1, 1);
+        background-color: rgb(255, 255, 255);
         border: rgb(255, 255, 255);
-        color: white;
+        color: rgb(0, 0, 0);
+        transition: ease-out 300ms;
         transform:scale(1.1);
     }
     .center{
