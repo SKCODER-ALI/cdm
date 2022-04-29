@@ -48,9 +48,10 @@
         scale: 200%;
         color: white;
     }
-    #logonname{
+    #logonname img{
         display: flex;
         justify-content: center;
+        align-items: center;
         padding-top: 10px;
         color: white;
     }
