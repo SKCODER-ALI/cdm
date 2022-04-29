@@ -8,11 +8,11 @@
    
     .navbar{
         height: 100px;
-        background-color: rgb(255, 86, 86);
+        background-color: rgb(103, 8, 255);
     }
     .main{
-        background-color: rgba(255, 148, 60, 0.322);
-        height: 280px;
+        background-color: rgb(230, 230, 230);
+        height: 300px;
     }
     .navbar li{
         
@@ -22,7 +22,7 @@
         margin-left: 10px;
         font-size: x-small;
         justify-content: center;
-        background-color: rgb(255, 86, 86);
+        background-color: rgb(103, 8, 255);
         text-decoration:none;
         transition: 300ms;
         
@@ -30,7 +30,7 @@
     .navbar li a{
         margin-top: 10px;
         text-decoration: none;
-        color: white;
+        color: rgb(255, 255, 255);
         height: 25px;
         width:fit-content;
         border-radius: 5px;
@@ -44,9 +44,9 @@
         margin-left: 0;
     }
     .navbar li :hover{
-        color: black;
         opacity: 500%;
-        scale: 120%;
+        scale: 200%;
+        color: white;
     }
     #logonname{
         display: flex;
