@@ -31,10 +31,7 @@
         margin-top: 10px;
         text-decoration: none;
         color: rgb(255, 255, 255);
-        height: 25px;
-        width:fit-content;
-        border-radius: 5px;
-        padding: 0.25%;
+        padding: 10px;
     }
     .navbar img{
         height: 50px;
@@ -43,11 +40,11 @@
         margin-top: -5px;
         margin-left: 0;
     }
-    .navbar li :hover{
-        opacity: 500%;
-        scale: 200%;
-        color: white;
+    .navbar li a:hover{
+        scale: 110%;
+        color: rgb(255, 255, 255);
     }
+
     #logonname img{
         display: flex;
         justify-content: center;
@@ -127,25 +124,25 @@
     display: flex;
 }
 .secondservice img{
-    height: 100px;
-    width: 100px;
+    height: 170px;
+    width: 170px;
     padding: 20px;
+    margin-top:30px;
     margin-left: 20px;
-    margin-top:30px ;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(212, 212, 212);
+    border-color: rgba(231, 229, 229, 0.493);
 }
 .secondservice img:hover{
-    transform: scale(110%);
-    transition-duration: 300ms;
+        transform: scale(105%);
+        transition-duration: 300ms;
 }
 .fs3 span{
     margin-left: 40px;
     
 }
 .fs4 span{
-    margin-left: 29px;
+    margin-left: 36px;
 }
 form{
     background-color: rgba(0, 0, 0, 0.671);
@@ -175,6 +172,9 @@ form input, form textarea{
     font-size: 25px;
     justify-self: center;
     padding: 15px;
+}
+#loadmore{
+        text-align: center;
 }
 
 
