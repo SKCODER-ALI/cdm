@@ -1,4 +1,4 @@
-@media only screen and (min-width: 405px) {
+@media only screen and (max-width: 480px) {
 *{
     margin: 0;
     padding: 0;
@@ -110,15 +110,17 @@
     border-color: rgba(231, 229, 229, 0.493);
 }
 .firstservice img:hover{
-        transform: scale(110%);
+        transform: scale(105%);
         transition-duration: 300ms;
 }
-.fs1 span{
+.fs1bs span{
     margin-left: 40px;
     
 }
-.fs2 span{
-    margin-left: 29px;
+.fs2bs span{
+    margin-left: 36px;
+
+        
 }
 .secondservice{
     display: flex;
