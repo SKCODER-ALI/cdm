@@ -186,7 +186,7 @@
         font-weight: bold;
     }
     .whatsapp{
-        background-color: rgb(0, 255, 213);
+        background-image: url("/image/wpbackground.jpg");
         height: 250px;
     }
     .whatsapp img{
