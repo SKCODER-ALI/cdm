@@ -223,14 +223,12 @@
         color: white;
         
     }
-    wa1:hover
-    wa2:hover{
+    wa1 a:hover
+    wa2 a:hover{
         background-color: rgb(0, 36, 8);
         border: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
-        transition: ease-out 300ms;
-        transform:scale(1.1);
     }
     
-    }/* 350display end */
+    }/* 412display end */
     
