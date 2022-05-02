@@ -79,13 +79,13 @@
     .btndiv{
         display: flex;
     }
-    button:hover{
+    /* button:hover{
         background-color: rgb(255, 255, 255);
         border: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         transition: ease-out 300ms;
         transform:scale(1.1);
-    }
+    } */
     .center{
         text-align: center;
         font-size: 10px;
