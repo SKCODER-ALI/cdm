@@ -210,7 +210,7 @@
     .wa1,
     .wa2{
         background-color: rgb(2, 97, 10);
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         margin-left: -50px;
         padding: 5px;
         border-radius: 5px;
@@ -219,11 +219,11 @@
         
     }
     .wa2 a{
-        color: black;
+        color: rgb(255, 255, 255);
     }
     .wppara .wa2 a{
         text-decoration: none;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         
     }
     wa1 a:hover
