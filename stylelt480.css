@@ -216,6 +216,12 @@
         border-radius: 5px;
         border: 0;
         height: 40px;
+        
+    }
+    .wa2 a{
+        text-decoration: none;
+        color: white;
+        
     }
     wa1:hover
     wa2:hover{
