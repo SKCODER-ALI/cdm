@@ -64,14 +64,6 @@
             display: flex;
             justify-content: center;
         }
-        /* button{
-            background-color: rgb(103, 8, 255);
-            color: white;
-            padding: 5px;
-            border-radius: 5px;
-            border: 0;
-            
-        } */
         .btn{
             margin-left: 5px;
             margin-top: 20px;
@@ -79,13 +71,7 @@
         .btndiv{
             display: flex;
         }
-        button:hover{
-            background-color: rgb(255, 255, 255);
-            border: rgb(255, 255, 255);
-            color: rgb(0, 0, 0);
-            transition: ease-out 300ms;
-            transform:scale(1.1);
-        }
+
         .center{
             text-align: center;
             font-size: 10px;
@@ -207,39 +193,34 @@
         margin-left: 50px;
         margin-top: 20px;
     }
-    .wa1,
-    .wa2{
-        background-color: rgb(2, 97, 10);
-        color: rgb(255, 255, 255);
-        margin-left: -50px;
-        padding: 5px;
+    .orderonwp,
+    .joinwpg{
+        background-color: rgb(30, 151, 0);
         border-radius: 5px;
-        border: 0;
-        height: 40px;
-        
+        margin-right: 40px;
+        padding: 10px;
+        text-align: center;
+        text
+        margin-top: -10px;
+        gap: 10px;
     }
-    .wa2 a{
-        color: rgb(255, 255, 255);
-    }
-    .wppara .wa2 a{
+    .orderonwp a,
+    .joinwpg a{
         text-decoration: none;
-        color: rgb(255, 255, 255);
-        
+        color: white;
+        padding: 10px;
     }
-    wa1 a:hover
-    wa2 a:hover{
-        background-color: rgb(0, 36, 8);
-        border: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-    }
+
     .social{
         display: flex;
         background-image: url(/sociallogo/background.webp);
     }
     .social img{
-            height: 105px;
+            height: 70px;
             padding: 10px;
-            margin-left: 30px;
+            margin-left: 50px;
+            justify-items: center;
+            align-items: center;
 
     }
     
