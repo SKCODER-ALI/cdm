@@ -232,6 +232,16 @@
         border: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
     }
+    .social{
+        display: flex;
+        background-image: url(/sociallogo/background.webp);
+    }
+    .social img{
+            height: 105px;
+            padding: 10px;
+            margin-left: 30px;
+
+    }
     
     }/* 412display end */
     
